@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+:root{
+--sidebar-flex:1.5;
+--condiv-flex:6;
+--fontsize-p:1.2rem;
+--fontsize-nav:1.4rem;
+--typing-font:3rem;
+}
+*
+{
+margin:0;
+padding: 0;
+}
+body
+{
+font-family: 'Raleway';
+}
+.App
+{
+display: flex;
+width: 100vw;
+min-height: 100vh;
+}
+/* .condiv class is for the right side content container*/
+.condiv
+{
+padding: 100px ;
+background-color: #f4f5f9;
+flex:var(--condiv-flex);
+}
+/*nav bar*/
+nav
+{
+padding:60px 30px 0px 30px ;
+flex:var(--sidebar-flex);
+background: rgb(17, 80, 122);
+
+}
+
+
+nav ul
+{
+  font-size:var(--fontsize-nav) ;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: white !important;
+}
+nav ul li
+{
+  margin:40px;
+  
+}
+a:-webkit-any-link {
+  color: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* css for active class */
+.active
+{
+font-weight: bolder;
+}
+
+.social
+{
+position: absolute;
+margin-top: 20px;
+display: flex;
+bottom: 60px;
+}
+.social i
+{
+  margin-top: 20px;
+padding-right: 30px;
+font-size: 25px;
+color: #9a9b9c;
+}
+.social i:hover
+{
+color: #ffffff;
+}
+
+.profilepic
+{
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border-radius: 80%;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  margin-left: 35%;
+  margin-right: 25%;
+ 
+}
+
+.break
+{
+  
+  margin-top: 2%;
+}
+
+.profileBio{
+  margin-left: 31%;
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10%;
+}
+
+.subtopic
+{
+margin:10px 10px 30px 10px !important;
+}
+p
+{
+font-size: var(--fontsize-p);
+}
+h1,h2,h3,h4,p
+{
+margin: 10px;
+}
+/*wide card*/
+.widecard
+{
+border:0px solid #9a9b9c;
+display: flex;
+margin:30px 0px 30px 0px;
+}
+.widecard:hover
+{
+color: #1b1d20;
+background-color: #ffffff;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+/*social*/
+/*.social-container {
+  background: #eee;
+  padding: 25px 50px;
+}*/
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.instagram {
+  color: black;
+}
+
+.facebook social{
+  margin-right: 0%;
+}
+.social
+{
+position: absolute;
+margin-top: 20px;
+display: flex;
+bottom: 60px;
+margin-left: 25%;
+}
+
+.social a
+{
+padding-right: 30px;
+font-size: 25px;
+color: #a2a3a3;
+}
+
+.social a:hover
+{
+color: #d3d1d1;
+}
+
+
+a.facebooksocial {
+  color: #4968ad;
+}
+
+
+a.instagramsocial {
+  color: black;
+}
+
+a.linkedInsocial {
+  color: #0077B5;
+}
+
+/*cards and projects*/
+
+.projects
+{
+padding: 20px ;
+background-color: #ffffff;
+flex:var(--condiv-flex);
+display: flex;
+}
+
+.maincomponent {
+  position: relative;
+  width: 250px;
+  height: 320px;
+  display: flex;
+  padding: 10px;
+  margin-right: 15px;
+}
+
+.maincomponent img {
+  width: 260px;
+  height: 150px;
+  margin: 5px;
+}
+
+.thecard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+}
+
+.thecard:hover {
+  transform: rotateY(180deg);
+}
+
+.thefront {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #ffc728;
+  color: #333;
+  text-align: center;
+  font-family: 'zilla slab', sans-serif;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.theback {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background: #D5D8DC;
+  color: #333;
+  text-align: center;
+  font-family: 'zilla slab', sans-serif;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  transform: rotateY(180deg);}
+
+.projdesctext{
+  text-align:center;
+  margin-top: 12%;
+}
+  /**skill & skill bar*/
+  
+.container {
+  width: 70%;
+  background-color: rgb(214, 208, 208);
+}
+
+.skills {
+  text-align: left;
+  color: black;
+  font-size:10px;
+  font-weight: bold;
+}
+
+.bar1 {height: 11px; width: 68%; background-color: #5daa5f;}
+.bar2 {height: 11px; width: 65%; background-color: #5daa5f;}
+.bar3 {height: 11px; width: 62%; background-color: #5daa5f;}
+.bar4 {height: 11px; width: 60%; background-color: #5daa5f;}
+.bar5 {height: 11px; width: 58%; background-color: #5daa5f;}
+.bar6 {height: 11px; width: 51%; background-color: #5daa5f;}
+.bar7 {height: 11px; width: 70%; background-color: #5daa5f;}
+
+.skillimage{
+  
+  position:relative;
+  width: 50%;
+  height: 20%;
+  
+}
