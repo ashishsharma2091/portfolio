@@ -5,10 +5,7 @@ import ls from '../img/LS.jpg';
 import unirisx from '../img/unirisx.jpg';
 import ms3 from '../img/ms3.jpg';
 import project from '../img/pic6.jpg';
-//import imagecolor from '../img/imagecolor.png';
-//import recsystem from '../img/recsystem.jpg';
-//import rkmstation from '../img/rkmstation.png';
-//import codeosoccer from '../img/codeosoccer.jpg';
+
 
 class Projects extends Component {
     render() {
@@ -18,10 +15,10 @@ class Projects extends Component {
                 color: '#000000'
               }}>
      
-                <img src={project}></img>
+                <img src={project} alt="projectpic"></img>
                 <div className="projects">
                     
-                    <ProjectsWidecard image={bol}
+                    <ProjectsWidecard image={bol} 
                     title="Bank Of Ireland" 
                     time="Bussiness On Line, Feb 20 - Sept 2020"
                     tech="[Core Java, Spring Web flow,Rest Web Service,  JSF, Java Sript SQL , Jenkins]"

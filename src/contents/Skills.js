@@ -6,7 +6,7 @@ render() {
 return (
     
 <div className="condiv skills">
-<img class ="skillimage" src={project}></img>
+<img class ="skillimage" src={project} alt="skillpic"></img>
 
 <p>Core JAVA</p>
 <div class="container">
