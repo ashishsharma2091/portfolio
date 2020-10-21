@@ -20,7 +20,7 @@ class Projects extends Component {
                     
                     <ProjectsWidecard image={bol} 
                     title="Bank Of Ireland" 
-                    time="Bussiness On Line, Feb 20 - Sept 2020"
+                    time="Bussiness On Line, Feb 19 - Till date"
                     tech="[Core Java, Spring Web flow,Rest Web Service,  JSF, Java Sript SQL , Jenkins]"
                      desc="The project dealt with Banking applications for corporate and Retail banking . BOL and Bank of Ireland 365 Online is a banking application that offers user the convenience and flexibility to do your day-to-day banking online at any time or in any place that suits Users, It’s convenient way to access your accounts online, Check balances, pay bills, view statements and more. "/>
                     
