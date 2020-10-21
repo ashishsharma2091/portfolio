@@ -20,6 +20,11 @@ return (
 <div class="container">
   <div class="skills bar3">62%</div>
 </div>
+
+<p>Micro Service/Service Discovery/Client side LoadBalancing</p>
+<div class="container">
+  <div class="skills bar6">58%</div>
+</div>
 <p>Rest WS</p>
 <div class="container">
   <div class="skills bar3">62%</div>
